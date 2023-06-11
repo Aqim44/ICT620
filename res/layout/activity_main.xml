@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0B1ED"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/unit_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Units"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/rebate_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit_input"
+        android:hint="Rebate Percentage"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rebate_input"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculate_button"
+        android:text="Profile" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_button"
+        android:text="Result" />
+
+</RelativeLayout>

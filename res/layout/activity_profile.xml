@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0B1ED"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/qim44"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:text="My Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/developers_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="Developers: MUSA MUSTAQIM BIN ISHAK"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/student_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developers_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="Student Number: 2022794013"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/programme_code_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_number_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="Programme Code: CS240"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/group_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/programme_code_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="Group: RCS250 5B"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/website_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="Visit our website"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/copyright_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="© 2023 Musa Mustaqim. All rights reserved."
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
